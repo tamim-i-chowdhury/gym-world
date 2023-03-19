@@ -109,3 +109,65 @@
     margin-top: -40px;
     transition: margin-top 500ms;
 }
+
+/* About US */
+.about-container{
+    background-color: rgb(16, 15, 15);
+    color: white;
+}
+.about-title{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-inner-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-left{
+    display: flex;
+    width: 40%;
+    border-top: 1px solid red;
+}
+.left-image img{
+    margin: 60px 22px;
+    width: 250px;
+    height: 400px;
+    transform: skewY(-15deg);
+}
+.right-image img{
+    margin: 60px 22px;
+    width: 250px;
+    height: 400px;
+    transform: skewY(-15deg);
+}
+.inner-right{
+    width: 40%;
+    border-top: 1px solid gray;
+}
+.inner-right h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.inner-right p{
+    font-size: 22px;
+    margin: 20px 20px;
+}
+.inner-right > ul{
+    margin: 30px 10px;
+}
+.inner-right > ul > li{
+    font-size: 20px;
+}
+.inner-right > button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+.inner-right > button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
