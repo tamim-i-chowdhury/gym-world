@@ -171,3 +171,32 @@
     background-color: blue;
     cursor: pointer;
 }
+
+/* customer care */
+.care-container{
+    background-image: url('./images/shape/Group_33094_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+.chat-btn {
+    padding: 12px 25px;
+    background-color: rgb(248, 246, 246);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.chat-btn:hover {
+    background-color: blue;
+    color: white;
+}
